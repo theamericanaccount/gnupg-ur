@@ -124,7 +124,7 @@ if [[ ! -v "_ns" ]]; then
   elif [[ "${_git_service}" == "gitlab" ]]; then
     _ns="freepg"
   elif [[ "${_git_service}" == "gnupg" ]]; then
-    _ns="sources"
+    _ns="source"
   fi
 fi
 if [[ ! -v "_git" ]]; then
